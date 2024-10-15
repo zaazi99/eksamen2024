@@ -463,3 +463,138 @@ Accessibility Page Start
   background-position: top center;
   background-size: cover;
 }
+
+/* Accessibility Section */
+/* Accessibility Section */
+/* Accessibility Section */
+.accessibility-section {
+  padding: 30px 0;
+  background: #edf2fa;
+}
+
+.accessibility-section .title-container {
+  padding-bottom: 20px;
+}
+
+.accessibility-section .accessibility-item {
+  padding-top: 20px;
+}
+
+.accessibility-item h2 {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.accessibility-item p {
+  margin-bottom: 10px;
+}
+
+.accessibility-item .photo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.accessibility-item .photo img {
+  max-width: 100%;
+}
+
+/* Accessibility Section Responsive */
+@media screen and (max-width: 568px) {
+  .accessibility-item .photo {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 
+Accessibility Page End
+Accessibility Page End
+Accessibility Page End
+ */
+
+/* 
+Github Page Start
+Github Page Start
+Github Page Start
+ */
+/* Banner Section */
+/* Banner Section */
+/* Banner Section */
+.banner.github-banner {
+  min-height: 50vh;
+  background: url(./images/github-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+/* Github Repository Section */
+/* Github Repository Section */
+/* Github Repository Section */
+.github-repository {
+  padding: 60px 0;
+}
+
+.repository-details {
+  padding-top: 30px;
+}
+
+.repository-details h2 {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.repository-details h3 {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.repository-details p {
+  margin-bottom: 10px;
+}
+
+.repository-details .photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.repository-details .photo img {
+  max-width: 100%;
+}
+
+/* 
+Github Page End
+Github Page End
+Github Page End
+ */
+
+/* <-------All Pages Footer Section Start------> */
+/* <-------All Pages Footer Section Start------> */
+/* <-------All Pages Footer Section Start------> */
+/* <-------All Pages Footer Section Start------> */
+.footer {
+  background: #3e3d32;
+  padding: 20px;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* <-------All Pages Footer Section End------> */
+/* <-------All Pages Footer Section End------> */
+/* <-------All Pages Footer Section End------> */
+/* <-------All Pages Footer Section End------> */
