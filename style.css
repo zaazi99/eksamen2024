@@ -26,3 +26,55 @@ p {
     line-height: 22px;
     color: #444444;
 }
+
+p a {
+    color: #0000ff;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.myContainer {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.title-container h1 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title-container h1 span {
+    color: #ff4500;
+}
+
+.title-container p {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
